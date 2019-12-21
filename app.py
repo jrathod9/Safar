@@ -1,10 +1,14 @@
 from flask import Flask, render_template, request
 import os
+import json
 
 
 app = Flask(__name__)
 app.secret_key = 'super secret key'
 app.config['SESSION_TYPE'] = 'filesystem'
+api_key = "179nbfy3u3"
+
+
 
 @app.route("/")
 def index():
