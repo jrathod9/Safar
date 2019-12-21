@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Safar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+  </head>
+  <body>
+  <section class="section">
+    
+    <div class="container" >
+      <h1 class="title">
+        Safar
+      </h1>
+      <p class="subtitle">
+        One stop shop for your next trip!
+      </p>
+      <div class="container">
+      <div class="tile is-ancestor">
+        <div class="container custom">
+        <div class="tile is-4"></div>
+        <div class="tile is-4">
+         <form class="has-text-centered">
+          <h3 class="title is-5">Trip details</h3>
+            <label for="source">Source</label>
+              <div class="field">
+                <div class="control">
+                  <input name="source" class="input is-small" type="text" placeholder="Source">
+                </div>
+              </div>
+           <label for="dest">Destination</label>
+              <div class="field">
+                <div class="control">
+                  <input name="dest" class="input is-small" type="text" placeholder="Destination">
+                </div>
+              </div>
+           <label for="start">Start</label><br><input class="input-small" type="date" name="start">
+           <br><label for="end">End</label><br><input class="input-small" type="date" name="end">
+           <br><label for="cls">Class</label>
+           <div class="field">
+            <!-- <div class="control"> -->
+              <div class="select is-small">
+                <select>
+                  <option>SL</option>
+                  <option>3A</option>
+                  <option>2A</option>
+                  <option>1A</option>
+                  <option>2S</option>
+                  <option>CC</option>
+                </select>
+              <!-- </div> -->
+            </div>
+          </div>
+
+            <label for="passengers">Travellers</label>
+           <div class="field">
+            <input type="number" name="passengers">
+          </div>
+
+         </form> 
+        </div>
+      </div>
+        <div class="tile is-4"></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section>
+    <form></form>
+  </section>
+  </body>
+</html>
