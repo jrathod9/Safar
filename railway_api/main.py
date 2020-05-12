@@ -2,7 +2,7 @@ import requests
 import json
 
 
-api_key = "kvimbtiqk3"
+api_key = ""
 date = "21-12-2019" #dd-mm-yyyy
 src = "adi"
 dest = "brc"
